@@ -198,3 +198,38 @@
     text-align: justify;
     font-weight: 500;
 }
+/* <!----------------------
+    4th-section-end 
+-----------------------> */
+/* <!----------------------
+    5th-section-start
+-----------------------> */
+.fifth-container{
+     display: flex;
+     justify-content: space-evenly;
+     margin-left: 250px;
+     margin-right: 250px;
+     margin-bottom: 100px;
+}
+#fifth-partOne{
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 45px 45px 45px 45px;
+    text-align: center;
+    align-items: center;
+}
+#fifth-text{
+    font-size: 30px;
+    font-weight: 700;
+}
+#fifth-partOne img{
+    width: 40px;
+    padding: 10px 15px;
+}
+/* <!----------------------
+    5th-section-end
+-----------------------> */
+/* <!----------------------
+    6th-section-start
+-----------------------> */
+
