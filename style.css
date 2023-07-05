@@ -159,7 +159,8 @@
     margin-left: 100px;
 }
 .tri-section-img img{
-    height: 948px;
+    margin-top: 200px;
+    height: 850px;
 }
 .tri-section-btn{
     border: none;
@@ -167,7 +168,7 @@
     background-color: orange;
     border-radius: 10px;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
     padding: 25px 25px;
     position: relative;
     right: 55px;
@@ -184,3 +185,16 @@
 /* <!----------------------
     4th-section-start 
 -----------------------> */
+.quad-container{
+    width: 45%;
+    margin: 70px;
+}
+.quad-section-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.quad-section-text{
+    text-align: justify;
+    font-weight: 500;
+}
