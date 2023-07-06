@@ -232,4 +232,18 @@
 /* <!----------------------
     6th-section-start
 -----------------------> */
-
+.sixth-section-head_text{
+    text-align: center;
+    margin: 150px 150px;
+}
+.sixth-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.sixth-text{
+    font-weight: 500;
+}
+/* <!----------------------
+    6th-section-end
+-----------------------> */
