@@ -205,27 +205,44 @@
     5th-section-start
 -----------------------> */
 .fifth-container{
-     display: flex;
-     justify-content: space-evenly;
-     margin-left: 250px;
-     margin-right: 250px;
-     margin-bottom: 100px;
-}
-#fifth-partOne{
-    border: 1px solid orange;
-    border-radius: 8px;
-    padding: 45px;
-    text-align: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
+.iconBox img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 50px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: background-position 1s;
+    border: 1px solid orange;
+}
+.iconBox img:nth-child(1){
+    background-image: linear-gradient(#fff 50%, tomato 50%);
+}
+.iconBox img:hover{
+    transition: 1s;
+    background: rgb(203, 233, 122);
+    background-position: 0% 100%;
+}
+
 #fifth-text{
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
-#fifth-partOne img{
-    width: 40px;
-    padding: 10px;
+#fifth-para-text{
+    text-align: center;
 }
+
 /* <!----------------------
     5th-section-end
 -----------------------> */
