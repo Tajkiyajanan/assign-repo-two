@@ -230,7 +230,7 @@
 }
 .iconBox img:hover{
     transition: 1s;
-    background: rgb(203, 233, 122);
+    background: rgb(3, 50, 88);
     background-position: 0% 100%;
 }
 
@@ -246,6 +246,28 @@
 /* <!----------------------
     5th-section-end
 -----------------------> */
+.project-header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin: 80px;
+}
+.photo-gallery {
+    width: 80%;
+    margin: auto;
+}
+.column{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 4fr 3fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 12px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
 /* <!----------------------
     6th-section-start
 -----------------------> */
@@ -285,4 +307,84 @@
     border-radius: 8px;
     background-color: #FFF4E7;
     padding: 40px;
+}
+
+/* -------------------
+    Media Queries 
+--------------------*/
+
+/*-------------------
+ for Mobile Devices
+------------------- */
+@media only screen and (max-width:688px){
+    .header-contain{
+        flex-wrap: wrap;
+    }
+    .header-title{
+        margin-left: 25px;
+    }
+    .nav-menu{
+        margin-top: 40px;
+    }
+    .nav-menu a{
+        display: flex;
+        padding-top: 0px;
+    }
+    .big-title{
+        font-size: 30px;
+        margin-top: -100px;
+    }
+    .small-title{
+        padding: 18px;
+    }
+    .top-banner-img img{
+        width: 100%;
+    }
+    .middle-section-container{
+        display: inline;
+        text-align: center;
+    }
+    .grid-img-container{
+        display: inline;
+        margin-left: -65px;
+    }
+    .grid-img-container img{
+        padding-top: 20px;
+    }
+    .middle-section-title{
+        margin-left: -250px;
+        padding-top: 35px;
+    }
+    .tri-section-container{
+        display: inline;
+        padding-top: 30px;
+    }
+    .tri-section-img img{
+        width: 388px;
+        height: 619px;
+        margin-left: -88px;
+        margin-right: 50px;
+    }
+    .fifth-container{
+        display: inline;
+        text-align: center;
+    }
+    .sixth-text{
+        margin-left: -90px;
+        margin-right: -90px;
+    }
+    .seventh-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .seventh-container img{
+        padding-top: 40px;
+    }
+    .foot-container{
+        margin: 5px;
+        padding-top: 50px;
+    }
+    .foot-text{
+
+    }
 }
